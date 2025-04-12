@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = 29369539
-API_HASH = "de80f5e7d06dfc51584c8e841b38f170"
+API_ID = 15953161
+API_HASH = "9ead700b5e8bd0175cdd2abb11a129d9"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "7914195765:AAEQn9B61wsg9h-4-RS3N5wERup0vJ_-hdA"
+BOT_TOKEN = "7947260578:AAHlhkzO9_nCcaoAgKn3gnI0izJBCZlUxdA"
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = "mongodb+srv://Up212104:Up212104@cluster0.q6xwu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
@@ -19,10 +19,10 @@ MONGO_DB_URI = "mongodb+srv://Up212104:Up212104@cluster0.q6xwu.mongodb.net/?retr
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = -1002362161115
+LOG_GROUP_ID = -1002690748034
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = 6653788100
+OWNER_ID = 7756751253
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/bye_artist"
-SUPPORT_GROUP = "https://t.me/bye_artist"
+SUPPORT_CHANNEL = "https://t.me/litechzofficial"
+SUPPORT_GROUP = "https://t.me/litechzofficial"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
